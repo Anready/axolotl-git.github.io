@@ -5,7 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const scriptName = button.getAttribute('data-script');
             alert(`Downloading ${scriptName}...`);
-            // Here you can add logic to download the file
+            const link = document.createElement('a');
+            link.href = https://github.com/axolotl-git/axolotl-git.github.io/blob/main/README.md; // Ensure the path is correct
+            link.download = script1;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         });
     });
 });
