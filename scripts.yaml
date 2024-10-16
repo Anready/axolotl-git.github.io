@@ -1,0 +1,5 @@
+scripts:
+  - name: "Script 1" 
+    url: "https://example.com/path/to/script1.lua"
+  #- name: "Script 2"
+    #url: "https://example.com/path/to/script2.lua"
