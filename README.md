@@ -9,9 +9,11 @@ Welcome to the **Yantra Launcher Script Hub**, an unofficial project that gather
 if you want to add scripts just create a fork of this and modify `scripts.yaml`
 
 to do that you need to follow thi structure
-`scripts:
-  - name: "Script 1" 
-    url: "https://example.com/path/to/script1.lua"`
+```
+scripts:
+  - name: "Script 1"
+     url: "https://example.com/path/to/script1.lua"
+```
 
 `name` is obliviusly the name of the script and `url` is the link to download
 
